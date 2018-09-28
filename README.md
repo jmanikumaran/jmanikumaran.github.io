@@ -43,7 +43,7 @@ npm install mdg-pivot --save
 
 ### Demo
 
-* Sample demo can be found [here](https://mdg-pivot-demo.github.io/)
+* Sample demo can be found [here](https://jmanikumaran.github.io/)
 
 ### Import
 ```typescript
