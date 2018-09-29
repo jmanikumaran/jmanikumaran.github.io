@@ -374,11 +374,11 @@ var AppComponent = /** @class */ (function () {
             'showExport': true,
             'showPrint': true,
             'lineChart': true,
-            'barChart': false,
-            'doughnutChart': false,
-            'pieChart': false,
-            'polarAreaChart': false,
-            'radarChart': false,
+            'barChart': true,
+            'doughnutChart': true,
+            'pieChart': true,
+            'polarAreaChart': true,
+            'radarChart': true,
             'rows': [{
                     'colName': 'Category',
                     'displayName': 'Category',
@@ -421,16 +421,6 @@ var AppComponent = /** @class */ (function () {
                 }],
             'filters': [],
             'filtervalues': [{
-                    'col': 'Location',
-                    'dataType': 'string',
-                    'filter': [],
-                    'sort': ''
-                }, {
-                    'col': 'Category',
-                    'dataType': 'string',
-                    'filter': [],
-                    'sort': ''
-                }, {
                     'col': 'Location',
                     'dataType': 'string',
                     'filter': [],
